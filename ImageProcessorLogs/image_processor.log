@@ -1,0 +1,21 @@
+2025-05-29 17:28:29 [INFO] Aplikacja została uruchomiona
+2025-05-29 17:28:35 [INFO] Aplikacja została zamknięta
+2025-05-29 17:30:48 [INFO] Aplikacja została uruchomiona
+2025-05-29 17:31:24 [INFO] Załadowano obraz: C:\Users\48720\Desktop\16805494977377-675883207.jpg
+2025-05-29 17:31:29 [INFO] Wykonano obrót obrazu w prawo
+2025-05-29 17:31:57 [INFO] Skalowanie obrazu do 79x120 pikseli
+2025-05-29 17:32:10 [INFO] Skalowanie obrazu do 1200x796 pikseli
+2025-05-29 17:32:40 [INFO] Rozpoczęto progowanie z wartością progu: 134
+2025-05-29 17:32:43 [INFO] Zakończono progowanie z wartością progu: 134
+2025-05-29 17:32:54 [ERROR] Błąd zapisu obrazu: C:\Users\48720\Pictures\123.jpg
+2025-05-29 17:32:58 [ERROR] Błąd zapisu obrazu: C:\Users\48720\Pictures\jfksdfs.jpg
+2025-05-29 17:33:08 [INFO] Wykonano obrót obrazu w lewo
+2025-05-29 17:33:14 [WARNING] Plik o podanej nazwie już istnieje: C:\Users\48720\Pictures\test.jpg
+2025-05-29 17:33:24 [ERROR] Błąd zapisu obrazu: C:\Users\48720\Pictures\test11.jpg
+2025-05-29 17:33:25 [INFO] Aplikacja została zamknięta
+2025-05-29 17:33:40 [INFO] Aplikacja została uruchomiona
+2025-05-29 17:34:00 [INFO] Załadowano obraz: C:\Users\48720\Desktop\16805494977377-675883207.jpg
+2025-05-29 17:34:03 [INFO] Wykonano obrót obrazu w prawo
+2025-05-29 17:34:08 [ERROR] Błąd zapisu obrazu: C:\Users\48720\Pictures\jeden.jpg
+2025-05-29 17:34:15 [ERROR] Błąd zapisu obrazu: C:\Users\48720\Pictures\nkfdnsk.jpg
+2025-05-29 17:34:29 [INFO] Aplikacja została zamknięta

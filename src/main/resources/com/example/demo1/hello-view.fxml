@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.demo1.HelloController">
+    <top>
+        <VBox alignment="CENTER">
+            <Label text="Aplikacja do obróbki obrazów"/>
+            <ImageView fx:id="logoImageView" fitHeight="60" preserveRatio="true"/>
+        </VBox>
+    </top>
+
+    <center>
+        <HBox spacing="10" alignment="CENTER">
+            <VBox spacing="10">
+                <Label text="Oryginalny Obraz"/>
+                <ImageView fx:id="originalImageView" fitWidth="300" preserveRatio="true"/>
+            </VBox>
+            <VBox spacing="10">
+                <Label text="Przetworzony Obraz"/>
+                <ImageView fx:id="processedImageView" fitWidth="300" preserveRatio="true"/>
+            </VBox>
+        </HBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" spacing="20">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label text="Autor: Michal Lipiec, PWr 2025"/>
+        </HBox>
+    </bottom>
+
+    <left>
+        <VBox spacing="5" alignment="TOP_CENTER" style="-fx-padding: 10;">
+            <Label text="Historia operacji" style="-fx-font-weight: bold;"/>
+            <ListView fx:id="historyListView" prefHeight="300" prefWidth="200"/>
+        </VBox>
+    </left>
+
+    <right>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Button text="Wczytaj Obraz" onAction="#onLoadImage"/>
+
+            <HBox spacing="5">
+                <Button fx:id="rotateLeftButton" text="⟲" onAction="#onRotateLeft"
+                        style="-fx-font-size: 16;" disable="true"/>
+                <Button fx:id="rotateRightButton" text="⟳" onAction="#onRotateRight"
+                        style="-fx-font-size: 16;" disable="true"/>
+            </HBox>
+
+            <Button fx:id="scaleButton" text="Skaluj obraz" onAction="#onScale" disable="true"/>
+
+            <ComboBox fx:id="operationComboBox" promptText="Wybierz operację"/>
+            <Button text="Wykonaj" onAction="#onExecute"/>
+            <Button text="Zapisz Obraz" onAction="#onSaveImage"/>
+        </VBox>
+    </right>
+</BorderPane>
